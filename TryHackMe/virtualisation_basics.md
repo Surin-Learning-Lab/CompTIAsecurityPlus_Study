@@ -7,7 +7,7 @@ Learn how containers have further optimized hardware utilization for application
 Key Terminology
 
 
-Virtualization: Enables a single physical computer to act like multiple separate computers./n
+Virtualization: Enables a single physical computer to act like multiple separate computers.\n
 Hypervisor: The “manager” software that makes and runs the virtual computers./n
 Lab Machine (VM): A whole virtual computer inside the real one, with its own system./n
 Container: A small, isolated box for one app that shares the same system as the host./n
