@@ -232,6 +232,27 @@ example: NIST Special Publication 800-171 rev.2 or ISO/IEC 27001
   -make the authenticity stronger if needed
 
 ### **Threat scope reduction**  
+-decrease the number of possible entry points  
 
+**Policy-driven access control**  
+-combine the adaptive identity with a preferred set of rules  
+
+### **Security Zones**  
+Security is more than a one-to-one relationship  
+-broad categorizations provide a security - related foundation  
+
+**Where are you coming from and where are you going**  
+-trusted, untrusted  
+-internal network, external network  
+-VPN 1, VPN 5, VPN 11  
+-marketing, IT, accounting, Human Resources  
+
+**Using the zones may be enough by itself to deny access**  
+-for example, untrusted to trusted zone traffic  
+
+**Some zones are implicitly trusted**  
+-for example, trusted to internet traffic  
+
+### **Policy Enforcement Policy**  
 
 
