@@ -189,6 +189,25 @@ If i downloaded a large text file ans ran a hash application i will get a hash t
 -we see what you are doing , login time - logout time - upload, download etc.
 
 
+## **Gap Analysis**  
+Where you are compared with where you want to be  
+
+Work towards a known baseline  
+example: NIST Special Publication 800-171 rev.2 or ISO/IEC 27001  
+
+### **Evaluate People and Processes**  
+**Get a baseline of employees**  
+-formal experience
+-current training  
+-knowledge of policies and procedures  
+
+**Examine the current process**  
+-research existing IT systems  
+-evaluate existing security policies  
+
+**Compare and contrast**  
+-evaluate existing systems  
+
 
 
 
