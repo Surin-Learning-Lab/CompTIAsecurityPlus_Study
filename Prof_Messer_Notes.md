@@ -19,11 +19,29 @@
 -fences, locks  
 -badge readers  
 
+
+
 ***Control type catagories***  
 
 **Preventative**  
--block access to a resource
+-block access to a resource  
+
 -firewall rules *(technical)*  
 -follow security policy *(managerial)*  
 -Guard shack checks all identification *(operational)*  
--enable door locks *(physical)*
+-enable door locks *(physical)*  
+
+**Deterent control types**  
+-discourage an intrusion attempt  
+-does not directly prevent access  
+
+-application splash screens *(technical)*  
+-threat of demotion *(managerial)*  
+-front reception desk *(operational)*  
+-posted warning signs *(physical)*
+
+
+-*(technical)*  
+-*(managerial)*  
+-*(operational)*  
+-*(physical)*
