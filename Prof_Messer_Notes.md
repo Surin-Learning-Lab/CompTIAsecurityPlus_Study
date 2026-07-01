@@ -1,7 +1,6 @@
 ***1.1 Security Controls***
 
 **Technical Controls**  
-
 -controls implementation using systems  
 -Operating system controls  
 -firewalls, anti-virus  
@@ -20,3 +19,11 @@
 -fences, locks  
 -badge readers  
 
+***Control type catagories***  
+
+**Preventative**  
+-block access to a resource
+-firewall rules *(technical)*  
+-follow security policy *(managerial)*  
+-Guard shack checks all identification *(operational)*  
+-enable door locks *(physical)*
