@@ -2,6 +2,6 @@
 
 **Technical Controls**  
 
--controls implementation using systems
--Operating system controls
+-controls implementation using systems  
+-Operating system controls  
 -firewalls, anti-virus
