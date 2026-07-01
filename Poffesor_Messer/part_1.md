@@ -78,9 +78,10 @@
 -post a sign for "Authorized personal" *(physical)*  
   
     
+---
 
-
-### ***1.2 The CIA Triad***  
+### ***1.2 Security Concepts***  
+***The CIA Triad***  
 
 **Combination of principles**  
 -the fundamentals of security  
@@ -106,6 +107,38 @@
 -selectively restrict access to a resource  
 
 **Two-factor Authentication**  
+-additional confirmation before information is disclosed  
+
+### **Integrity**  
+-data is stored and transferred as intended  
+-any modification to the data would be identified  
+
+**Hashing**  
+-map data of an arbitrary length to data of a fixed length  
+
+**Digital Signature**  
+-mathematical scheme to verify the integrity of data  
+
+**Certificates**  
+-combine with a digital signature to verify an individual  
+
+**Non-repudiation**  
+-provides proof of integrity, can be asserted to be genuine  
+
+### **Availability**  
+Information is accessible to authorized users   
+-always at your fingertips  
+
+**Redundancy**  
+-buid services that will always be available  
+
+**Fault Tolerance**  
+-systems will continue to run, even when a failure occurs  
+
+**Patching**  
+-stability  
+-close security holes  
+
 
 
 
