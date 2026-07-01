@@ -161,7 +161,7 @@ Doesn't necessarily associate data with an individual
 example:  
 If i downloaded a large text file ans ran a hash application i will get a hash that represents everything in that file. If I, or someone else opens that file and changes one simple character and I run a hash application again, the hash will be completely different - telling me the file has been changed.  
 
-**Proof of Origin**  
+### **Proof of Origin**  
 -prove the message was not changed  
 
 **Integrity**  
@@ -179,6 +179,14 @@ If i downloaded a large text file ans ran a hash application i will get a hash t
 -any change to the message will invalidate the signature  
 
 ## **Authentication, Authorization and Accounting**  
+**Authentication**  
+-you are who you say you are  
+
+**Authorization**  
+-you have access to this because we know who you are  
+
+**Accounting**  
+-we see what you are doing , login time - logout time - upload, download etc.
 
 
 
