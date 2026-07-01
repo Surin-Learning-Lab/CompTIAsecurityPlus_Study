@@ -21,9 +21,9 @@
 
 
 
-***Control type catagories***  
+***Control type categories***  
 
-**Preventative**  
+**Preventative control types**  
 -block access to a resource  
 
 -firewall rules *(technical)*  
@@ -31,17 +31,52 @@
 -Guard shack checks all identification *(operational)*  
 -enable door locks *(physical)*  
 
-**Deterent control types**  
+**Deterrent control types**  
 -discourage an intrusion attempt  
 -does not directly prevent access  
 
 -application splash screens *(technical)*  
 -threat of demotion *(managerial)*  
 -front reception desk *(operational)*  
--posted warning signs *(physical)*
+-posted warning signs *(physical)*  
+
+**Detective control types**  
+-identify and log an intrusion attempt  
+-may not prevent access  
+
+-collect and review system logs *(technical)*  
+-review login reports *(managerial)*  
+-regularly patrol the property *(operational)*  
+-enable motion detectors *(physical)*  
+
+**Correction control types**  
+-apply a control after an event has been detected  
+-reverse the impact of an event  
+-continue operating with minimal downtime  
+
+-restoring from backups can mitigate a ransomware infection *(technical)*  
+-create policies for reporting security issues *(managerial)*  
+-contact law enforcement to manage criminal activity *(operational)*  
+-use a fire extinguisher *(physical)*  
+
+**Compensating control types**  
+-control using other means  
+-existing controls arn't sufficient  
+-may be temporary  
+
+-firewall blocks a specific application instead of patching the app*(technical)*  
+-implement a separation of duties *(managerial)*  
+-require simultaneous guard duties *(operational)*    
+
+**Directive control types**  
+-direct a subject towards security compliance  
+-a relatively weak security control  
+
+-store all sensitive files in a protected folder *(technical)*  
+-create compliance policies and procedures *(managerial)*  
+-train users on proper security policy *(operational)*  
+-post a sign for "Authorized personal" *(physical)*
 
 
--*(technical)*  
--*(managerial)*  
--*(operational)*  
--*(physical)*
+
+
