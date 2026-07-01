@@ -75,7 +75,26 @@
 -store all sensitive files in a protected folder *(technical)*  
 -create compliance policies and procedures *(managerial)*  
 -train users on proper security policy *(operational)*  
--post a sign for "Authorized personal" *(physical)*
+-post a sign for "Authorized personal" *(physical)*  
+
+
+***1.2 The CIA Triad***  
+
+**Combination of principles**  
+-the fundamentals of security  
+-sometimes referred to as the AIC triad  
+
+**CONFIDENTIALITY**  
+-prevent disclosure of information to unqualified individuals or systems  
+
+**INTEGRITY**  
+-messages can't be modified without detection  
+
+**AVAILABILITY**  
+-Systems and networks must be up and running  
+
+
+
 
 
 
