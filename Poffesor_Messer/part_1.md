@@ -80,7 +80,7 @@
     
 
 
-***1.2 The CIA Triad***  
+### ***1.2 The CIA Triad***  
 
 **Combination of principles**  
 -the fundamentals of security  
@@ -95,7 +95,7 @@
 **AVAILABILITY**  
 -Systems and networks must be up and running  
 
-**Confidentiality**  
+#### **Confidentiality**  
 -certain information should only be known to certain people  
 -prevent unauthorized information disclosure  
 
