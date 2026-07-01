@@ -210,8 +210,28 @@ example: NIST Special Publication 800-171 rev.2 or ISO/IEC 27001
 
 
 ## **Zero Trust**  
+-Must authenticate for every process  
 
+-split the network into functional planes  
+-applies to physical, virtual and cloud components  
 
+### **Data Plane**  
+-process the frames, packets and network data  
+-processing, forwarding, trunking, encrypting and NAT  
+
+### **Control Plane**  
+-manages the actions of the data plane  
+-define polices and rules  
+-determines how packets should be forwarded  
+-routing tables, session tables, NAT tables  
+
+### **Adaptive identity**  
+-consider the source of the requested resource  
+-multiple risk indicators  
+  -relationship to the organization, physical location, type of connection, IP address, etc.  
+  -make the authenticity stronger if needed
+
+### **Threat scope reduction**  
 
 
 
