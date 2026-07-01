@@ -80,8 +80,8 @@
     
 ---
 
-### ***1.2 Security Concepts***  
-#### ***The CIA Triad***  
+# ***1.2 Security Concepts***  
+## ***The CIA Triad***  
 
 **Combination of principles**  
 -the fundamentals of security  
