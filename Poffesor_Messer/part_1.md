@@ -190,7 +190,7 @@ If i downloaded a large text file ans ran a hash application i will get a hash t
 
 
 ## **Gap Analysis**  
-Where you are compared with where you want to be  
+Where you are, compared with where you want to be  
 
 Work towards a known baseline  
 example: NIST Special Publication 800-171 rev.2 or ISO/IEC 27001  
@@ -209,6 +209,7 @@ example: NIST Special Publication 800-171 rev.2 or ISO/IEC 27001
 -evaluate existing systems  
 
 
+## **Zero Trust**  
 
 
 
