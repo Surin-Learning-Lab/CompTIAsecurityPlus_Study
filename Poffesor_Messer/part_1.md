@@ -178,7 +178,7 @@ If i downloaded a large text file ans ran a hash application i will get a hash t
 **Verify with the public key**  
 -any change to the message will invalidate the signature  
 
-## **Authentication, Authorization and Accounting**  
+## ***Authentication, Authorization and Accounting***  
 **Authentication**  
 -you are who you say you are  
 
@@ -189,7 +189,7 @@ If i downloaded a large text file ans ran a hash application i will get a hash t
 -we see what you are doing , login time - logout time - upload, download etc.
 
 
-## **Gap Analysis**  
+## ***Gap Analysis***  
 Where you are, compared with where you want to be  
 
 Work towards a known baseline  
@@ -209,7 +209,7 @@ example: NIST Special Publication 800-171 rev.2 or ISO/IEC 27001
 -evaluate existing systems  
 
 
-## **Zero Trust**  
+## ***Zero Trust***  
 -Must authenticate for every process  
 
 -split the network into functional planes  
