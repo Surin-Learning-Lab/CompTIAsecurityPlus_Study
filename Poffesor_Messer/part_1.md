@@ -263,5 +263,17 @@ Subjects and Systems
 **Allow, monitor, and terminate connections**  
 -can consist of multiple components working together  
 
+### **Applying trust in the planes**  
+**Policy decision point PDP**  
+-there's a process for making a authentication decision  
+
+**Policy engines**  
+-evaluates each access decision based on policy and other information sources  
+-grant, deny or remove  
+
+**Policy administration**  
+-communicates with the policy enforcement point (PEP)  
+-generates access tokens or credentials  
+-tells the PEP to allow or disallow access
 
 
