@@ -1,4 +1,4 @@
-***1.1 Security Controls***
+#***1.1 Security Controls***
 
 **Technical Controls**  
 -controls implementation using systems  
@@ -76,6 +76,8 @@
 -create compliance policies and procedures *(managerial)*  
 -train users on proper security policy *(operational)*  
 -post a sign for "Authorized personal" *(physical)*  
+  
+    
 
 
 ***1.2 The CIA Triad***  
@@ -92,6 +94,19 @@
 
 **AVAILABILITY**  
 -Systems and networks must be up and running  
+
+**Confidentiality**  
+-certain information should only be known to certain people  
+-prevent unauthorized information disclosure  
+
+**Encryption**  
+-encode messages so only certain people can read it  
+
+**Access Controls**  
+-selectively restrict access to a resource  
+
+**Two-factor Authentication**  
+
 
 
 
