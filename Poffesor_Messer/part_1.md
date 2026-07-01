@@ -81,7 +81,7 @@
 ---
 
 ### ***1.2 Security Concepts***  
-***The CIA Triad***  
+#### ***The CIA Triad***  
 
 **Combination of principles**  
 -the fundamentals of security  
@@ -96,7 +96,7 @@
 **AVAILABILITY**  
 -Systems and networks must be up and running  
 
-#### **Confidentiality**  
+### **Confidentiality**  
 -certain information should only be known to certain people  
 -prevent unauthorized information disclosure  
 
@@ -130,7 +130,7 @@ Information is accessible to authorized users
 -always at your fingertips  
 
 **Redundancy**  
--buid services that will always be available  
+-build services that will always be available  
 
 **Fault Tolerance**  
 -systems will continue to run, even when a failure occurs  
