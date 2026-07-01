@@ -254,5 +254,14 @@ Security is more than a one-to-one relationship
 -for example, trusted to internet traffic  
 
 ### **Policy Enforcement Policy**  
+Subjects and Systems  
+-end users, apps, non-human entities  
+
+**Policy enforcement point PEP**  
+-the gatekeeper  
+
+**Allow, monitor, and terminate connections**  
+-can consist of multiple components working together  
+
 
 
