@@ -301,3 +301,17 @@ Subjects and Systems
 -can be any king of data that can be traced  
 
 # ***1.3 Change Management***  
+### **What is change management?**  
+-Create a plan to implement a change, identify stakeholders, test in a branch/sandbox, develop a reversal plan if the update fails or corrupts other systems  
+
+### **CAB change advisory board**  
+
+**Rollback** is reverting to a working implementation before the change, in the case of webdev it would be like merging a branch to the main, finding an issue and then deploying the version prior to the merge, ie. the working version  
+
+### **Technical change management**  
+allow list vs. deny list  
+-allow- only the sites on the list are accessible.  
+-deny- everything is allowed except whats on the list  
+
+# ***1.4 Cryptographic Solutions***  
+
