@@ -277,3 +277,32 @@ Subjects and Systems
 -tells the PEP to allow or disallow access
 
 
+## ***Physical Security***  
+-barricades / bollards  
+-access control vestibules  
+-fencing  
+-video surveillance  
+-guards and access badges  
+-lighting  
+-sensors  
+
+### **Deception and distribution**  
+**honeypot**  
+-attack hackers, create a virtual world  
+**honeynet**  
+-a combination of honeypot, servers, work stations etc.  
+**honeyfile**  
+-files with fake information. eg password, text  
+-if someone opens a honeyfile a notification is sent  
+**Honeytokens**  
+-traceable data  
+-fake API credentials  
+-fake emails - track usage  
+-can be any king of data that can be traced  
+
+### **Examples of managerial security controls include:**  
+1. organizational security policy  
+2. risk assessments  
+3. security awareness training
+
+# ***1.3 Change Management***  
