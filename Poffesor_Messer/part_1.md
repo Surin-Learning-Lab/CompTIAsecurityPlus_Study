@@ -366,6 +366,9 @@ What a certificate authority does
 
  **example**  
 Bob and Alice want to share encrypted data without ever sending their private keys. Each generates a private key and a corresponding public value, using agreed-upon math parameters(a large prime number and a base). They exchange public values, then each combines their own private key with the other’s public value to compute the same shared secret. This shared secret becomes their symmetric key, allowing secure communication without exposing private keys.  
+  
+    
+
 **Simple math example (real numbers are huge)**  
 1. **Agreed parameters** Prime *p* = 23, Base *g* = 5  
 2. **Step 1 Private keys (secret)** Bob chooses private key *a* = 6 Alice chooses private key *b* = 15  
@@ -374,6 +377,31 @@ Bob and Alice want to share encrypted data without ever sending their private ke
 5. **Step 4 Compute shared secret** Bob computes S = B<sup>a</sup> mod *p* = 19<sup>6</sup> mod 23 = 2, Alice computes S = A<sup>b</sup> mod *p* = 18<sup>15</sup> mod 23 = 2  
 6. **Result** Both Bob and Alice independently arrive at the same shared secret: **2**  
 
+## **Encryption Technologies**  
+HSM -Hardware Security Module -large environments  
+TPM -Trusted platform Module -local
+Secure Enclave defined:  
+-security processor built into the devices  
+-provide extrinsic security  
+-realtime encryption  
+-random number generator  
+-AES (Advanced encryption standard) in hardware  
+-Common examples are Apple’s Secure Enclave and Intel SGX.  
 
-
+## **Obfuscation**  
+**Stenography**  
+-hide information in an image  
+-embed in TCP packets  
+-yellow dots on a printed page  
+-audio files  
+-video files  
+  
+**Tokenization**  
+-replace sensitive data with non-sensitive data  
+-credit-card or smart watches sends a one time token  
+-no encryption or hashing  
+-NFC (near field communication)  
+**Data masking**  
+-hiding with *  
+-for example a credit card number might use **** **** **** 4219
 
