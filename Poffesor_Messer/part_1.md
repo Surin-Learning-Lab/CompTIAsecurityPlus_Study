@@ -314,7 +314,7 @@ allow list vs. deny list
 -deny- everything is allowed except whats on the list  
 
 # ***1.4 Cryptographic Solutions***  
-### **Public Key infrastructure**  
+## **Public Key infrastructure**  
 symmetric vs. asymmetric  
 What a certificate authority does  
 **Symmetric**  
@@ -333,7 +333,7 @@ What a certificate authority does
 **Cipher text**  
 -combination of the "plane text" and public key
 
-### **Encrypting Data**  
+## **Encrypting Data**  
 **Database encryption**  
 -transparent encryption   
     -encrypt all database information with a symmetric key  
@@ -355,7 +355,7 @@ What a certificate authority does
  -hash a password --> hash the hash --> hash the hash of the hash --> and so on  
  -makes it much harder to bruit force  
 
- ### **Key exchange**  
+ ## **Key exchange**  
  **Diffie-Hellman concept**  
  -DHE (Diffie-hellman ephemeral)  
  1. **Private keys** each generates a private key(kept secrete)  
@@ -363,7 +363,7 @@ What a certificate authority does
  3. **Exchange** they exchange public values over the insecure channel  
  4. **Shared secrete** each combines their own private key with the others public key. because of the math, both arrive at the same shared secrete.  
  5. **Symmetric Key** this shared secrete becomes their symmetric key, allowing secure communication without exposing private keys  
- 
+
  **example**  
 Bob and Alice want to share encrypted data without ever sending their private keys. Each generates a private key and a corresponding public value, using agreed-upon math parameters(a large prime number and a base). They exchange public values, then each combines their own private key with the other’s public value to compute the same shared secret. This shared secret becomes their symmetric key, allowing secure communication without exposing private keys.
 
