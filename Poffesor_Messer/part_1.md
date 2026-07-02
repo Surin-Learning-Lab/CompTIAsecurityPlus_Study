@@ -314,4 +314,49 @@ allow list vs. deny list
 -deny- everything is allowed except whats on the list  
 
 # ***1.4 Cryptographic Solutions***  
+### **Public Key infrastructure**  
+symmetric vs. asymmetric  
+What a certificate authority does  
+**Symmetric**  
+-same key to encrypt and decrypt  
+-doesn't scale well  
+-very fast  
+-less overhead  
+
+**Asymmetric**  
+-two different keys but mathematically related  
+-one private key one public key  
+-everyone has access to the public key, can use it to encrypt data and send it ,but only the private key can decrypt the data  
+-even though the keys are mathematically related, knowing one does not allow you to derive the other  
+-there is no way to reverse the math to find the private key  
+
+**Cipher text**  
+-combination of the "plane text" and public key
+
+### **Encrypting Data**  
+**Database encryption**  
+-transparent encryption   
+    -encrypt all database information with a symmetric key  
+-record level encryption  
+
+**Transparent encryption**  
+-HTTPS  
+-VPN, SSL/TLS, IPsec  
+ windows - bitlocker, EFS  
+ Mac OS - file vault  
+
+ **DES**  
+ -data encryption standard  
+
+ **AES**  
+ -advanced encryption standard  
+
+ **Key stretching / key strengthening**  
+ -hash a password --> hash the hash --> hash the hash of the hash --> and so on  
+ -makes it much harder to bruit force  
+
+ ### **Key exchange**  
+ 
+
+
 
