@@ -369,7 +369,11 @@ Bob and Alice want to share encrypted data without ever sending their private ke
 **Simple math example (real numbers are huge)**  
 1. **Agreed parameters** Prime *p* = 23, Base *g* = 5  
 2. **Step 1 Private keys (secret)** Bob chooses private key *a* = 6 Alice chooses private key *b* = 15  
-3. **Step 2 Public Keys** Bob computes A = *g<sup>a<sup>*
+3. **Step 2 Public Keys** Bob computes A = *g<sup>a<sup>* mod *p* = 5⁶ mod 23 = 8 , Alice computes B = *g<sup>b<sup>* mod *p* = 5<sup>15<sup> mod 23 = 19  
+4. **Step 3 Exchange public keys** Bob sends A = 8 to Alice, Alice sends B = 19 to Bob  
+5. **Step 4 Compute shared secret** Bob computes S = B<sup>a<sup> mod *p* = 19<sup>6<sup> mod 23 = 2, Alice computes S = A<sup>b<sup> mod *p* = 18<sup>15<sup> mod 23 = 2  
+6. **Result** Both Bob and Alice independently arrive at the same shared secret: **2**  
+
 
 
 
