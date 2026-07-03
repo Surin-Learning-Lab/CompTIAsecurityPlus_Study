@@ -14,11 +14,5 @@
 
 APT's Advanced Persistent Threats  
 DoS Denial of Service  
----  
-THREAT ACTOR    LOCATION    RESOURCES   SOPHISTICATION  MOTIVATIONS  
-***  
-Nation State    External    Extensive   Very High       Data exfiltration, philosophical, revenge  
-                                                        disruption, war  
-***  
 
 
