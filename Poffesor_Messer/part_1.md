@@ -403,5 +403,47 @@ Secure Enclave defined:
 -NFC (near field communication)  
 **Data masking**  
 -hiding with *  
--for example a credit card number might use **** **** **** 4219
+-for example a credit card number might use **** **** **** 4219  
+## **HTTP commands**  
+-GET  
+-POST  
+-PUT  
+-DELETE  
+-PATCH  
+-HEAD  
+-OPTIONS  
+-CONNECT  
+-TRACE  
+
+## **Hashing and digital signatures**  
+**SHA256 hashing algorithm**  
+-256 bits / 64 hexadecimal characters  
+**MD5**  
+-has a collision problem  
+-should not use  
+-found in 1996  
+
+*used for verifying a download and password storage  
+**SALT**  
+-random date added during hashing  
+-every user gets their own random salt   
+-rainbow tables won't work with salted hashes  
+  
+
+A digital signature proves that the plain text received from the sender is the authentic message and can be trusted  
+
+## **Blockchain technology**  
+A blockchain is a distributed ledger maintained by all participating nodes. Each new transaction is grouped into a block, which includes a hash of the previous block, forming a chain. Consensus mechanisms (PoW, proof of work) (PoS, proof of stake) ensure validity. If a block is altered, the hash mismatch causes rejection. This design provides immutability, transparency, and trust. Blockchain can be used for cryptocurrency, medical records, supply chain tracking, and other sensitive transactions.  
+  
+## **Certificates**  
+X.509 standard format  
+  
+CSR - certificate signing request  
+CRL - certificate revocation list  
+OCSP - online certificate status protocol  
+A certificate contains both a public key and a digital signature  
+A CSR is a certificate signing request  
+Certificate revocation is a way of invalidating a certificate so it is no longer trusted  
+OCSP stapling is when the status of a certificate is checked in the browser when the SSL/TLS handshake occurs
+
 
