@@ -101,6 +101,93 @@ XSS (cross site script)
 - zero bandwidth used  
   
 #### 6. **Vulnerable software vectors**  
+**Client Based**  
+- infected executable  
+- known (or unknown) vulnerabilities  
+- may require constant updates  
+  
+**Agentless**  
+- no installed executable  
+- compromised software on the server would affect all users  
+- client runs a new instance each time  
+  
+#### 7. **Unsupported Systems vectors**  
+**Patching is an important preservation tool  
+- ongoing security fixes  
+  
+**Unsupported systems aren't patched  
+- there might not even be an option  
+  
+**Outdated operating systems**  
+- eventually even the manufacturer won't help  
+  
+**A single system could be an entry point**  
+- keep your inventory and records current  
+  
+#### 8. **Unsecure network vectors**  
+**The network connects everything**  
+- ease of access for the attackers  
+- view all (non-encrypted) data  
+  
+**Wireless**  
+- outdated security protocols (WEP, Wired Equivalent Privacy), (WPA, WiFi Protected Access) and (WPA2, WiFi Protected Access II)  
+- open or rogue wireless networks  
+  
+**Wired**  
+-unsecure interfaces - No802.1X
+- No 802.1X → The network relies on simpler methods like pre‑shared keys (PSK) (e.g., WPA2‑PSK, WPA3‑PSK).  
+  
+**Bluetooth**  
+- reconnaissance  
+- implementation vulnerabilities  
+  
+#### 9. **Open Service Ports**  
+**Most network-based services connect over TCP (transmission control protocol) or UDP (user datagram protocol) port  
+- an "open" port  
+  
+**Every open port is an opportunity for the attacker  
+- application vulnerability or misconfiguration  
+  
+**Every application has their own open port**  
+- more services expand the attack surface  
+  
+**Firewall Rules**  
+- must allow traffic to an open port  
+  
+#### 10. **Default credentials**  
+**Most devices have default usernames and passwords**  
+-change yours!  
+  
+**The right credentials provide full control**  
+- admin access  
+  
+**Very easy to find the defaults for your access point or router**  
+- routerpasswords.com  
+  
+#### 11. **Supply chain vectors**  
+**Tamper with the underlying infrastructure**  
+- or manufacturing process  
+  
+**Managed service providers (MSP's)**  
+- access many different customer networks from one location  
+  
+**Gain access to a network using a vender**  
+- 2013 Target credit-card breach  
+  
+**Suppliers**  
+- counterfeit network equipment  
+- install back-doors, substandard performance and availability  
+- 2020 fake cisco catalyst switches  
+  
+### ***Phishing***  
+* **Vishing** - voice phishing  
+* **Smishing** - SMS phishing  
+  
+### ***Impersonation***  
+- voice calls  
+- eliciting information  
+- identity fraud  
+
 
 
 

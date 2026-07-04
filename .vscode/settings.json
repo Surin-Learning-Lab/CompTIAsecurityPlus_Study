@@ -1,10 +1,14 @@
 {
     "cSpell.words": [
+        "bitlocker",
+        "datagram",
         "Diffie",
         "exfiltration",
         "honeyfile",
         "honeynet",
         "Honeytokens",
+        "OCSP",
+        "Roshal",
         "webdev"
     ]
 }
