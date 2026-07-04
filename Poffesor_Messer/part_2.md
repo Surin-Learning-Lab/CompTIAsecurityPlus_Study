@@ -142,10 +142,10 @@ XSS (cross site script)
 - implementation vulnerabilities  
   
 #### 9. **Open Service Ports**  
-**Most network-based services connect over TCP (transmission control protocol) or UDP (user datagram protocol) port  
+**Most network-based services connect over TCP (transmission control protocol) or UDP (user datagram protocol) port**S  
 - an "open" port  
   
-**Every open port is an opportunity for the attacker  
+**Every open port is an opportunity for the attacker**  
 - application vulnerability or misconfiguration  
   
 **Every application has their own open port**  
@@ -156,7 +156,7 @@ XSS (cross site script)
   
 #### 10. **Default credentials**  
 **Most devices have default usernames and passwords**  
--change yours!  
+- change yours!  
   
 **The right credentials provide full control**  
 - admin access  
