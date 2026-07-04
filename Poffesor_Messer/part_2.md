@@ -37,7 +37,7 @@ Attack vectors / threat vectors
 **Social engineering attacks**  
 - invoicing scams  
 - cryptocurrency scams  
-2. **image based vectors**  
+#### 2. **image based vectors**  
 
 
 
