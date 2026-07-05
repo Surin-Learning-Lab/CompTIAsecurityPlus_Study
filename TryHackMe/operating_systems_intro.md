@@ -1,6 +1,0 @@
-## Learning Objectives
-Understand what an operating system is and the role it plays
-Explain the core duties of an operating system
-Identify common OS types and their typical use cases
-Practice interacting with an OS to gather system information
-
